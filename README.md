@@ -1,4 +1,4 @@
-# Bare Metal Code Experiences
+# Bare Metal Coding Experiences
 For the past month, alongside other typical projects, I've been trying out different CPU architectures to see which is the most fun to use.
 
 The purpose of this experiment is to see which bare-metal architecture is the easiest and most friendly to code for. So far, quite surprisingly, RISC-V appears to be the hardest to code for, while AVR looks to be the easiest, except for direct hardware manipulation.
