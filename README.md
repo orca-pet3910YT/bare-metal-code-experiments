@@ -7,10 +7,10 @@ The testing program needs to meet these rules:
 - Prints a "Hello, World!"
 - Returns and stops the CPU
 - Has UART access
-- Has stack
+- Has working stack that's used correctly
 
 | Architecture | Complexity | Did it run? | Notes |
 | --- | --- | --- | --- |
 | x86 | Easy | Yes | Starts in 16-bit mode, may also run in 32-bit or 64-bit depending on environment |
-| RISC-V | Medium | 2/4 points | Stack needs to be manipulated manually, unlike x86 CPUs |
+| RISC-V | Medium | 3/4 points | Stack needs to be manipulated manually, unlike x86 CPUs |
 | Atmel AVR | Easy | Yes | The hardware is limited to 2KB RAM and 32KB ROM |
