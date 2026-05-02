@@ -12,7 +12,7 @@ The testing program needs to meet these rules:
 
 | Architecture | Complexity | Did it run? | Notes |
 | --- | --- | --- | --- |
-| x86 | Easy | Yes | Starts in 16-bit mode, may also run in 32-bit or 64-bit depending on environment |
-| RISC-V | Medium | Yes | Stack needs to be manipulated manually, unlike x86 CPUs. Also, ELF entry point data is ignored, and instead the first function in the binary is called |
-| Atmel AVR | Easy | Yes | The hardware is limited to 2KB RAM and 32KB ROM |
-| ARM | Untested | Untested | The architecture is RISC, but has so many extensions that make it look like CISC |
+| x86 | Easy | Yes | Starts in 16-bit mode, may also run in 32-bit or 64-bit depending on environment. |
+| RISC-V | Medium | Yes | Stack needs to be manipulated manually, unlike x86 CPUs. Also, ELF entry point data is ignored, and instead the first function in the binary is called. |
+| Atmel AVR | Easy | Yes | The hardware is limited to 2KB RAM and 32KB ROM. A lot of code is abstracted behind its C runtime. |
+| ARM | Untested | Untested | The architecture is RISC, but has so many extensions that make it look like CISC. |
